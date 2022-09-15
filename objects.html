@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Q1.Create a Function</h4>
+    <pre>function Check(obj1){
+
+        obj1.setter=function(){
+          console.log(this.name);
+        }
+           
+        }</pre>
+        <h4>Q2.Delete a Property</h4>
+        <pre>
+            function Check(obj1) {
+                obj1.rollno = 14,
+                obj1.name ="Utkarsh"
+                  
+                  
+                  let x=delete obj1.name;
+                  return x;
+                  
+                  
+              }
+        </pre>
+
+        <h4>Q3.Check whether the Package is Dream Package or not</h4>
+        <pre>
+            function readLine() {
+                return inputString[currentLine++];
+            }
+            
+            function Check(obj1) {
+                if(obj1.salary>500000){
+                  return "Dream"
+                }
+                else{
+                  return "NotDream"
+                }
+            }
+        </pre>
+        <h4>Q4.Check whether the Object has a parameter or not</h4>
+        <pre>
+            function Check(obj1) {
+  
+            let result= Object.keys(obj1).length;
+            if (result==0)
+              return false;
+            else
+            return true;
+            
+             
+          }
+          </pre>
+
+          <h4>Q5.Merge the Objects</h4>
+          <pre>
+            
+          function Check(obj1,obj2) {
+             let result=Object.assign(obj1,obj2)
+            return result;
+          }
+         </pre>
+         <h4>Q6.Object Multiplyer</h4>
+         <pre>function Check(n,obj) {
+            console.log(obj) 
+         }
+         
+         </pre>
+
+
+         <h4>Q7.Find the  sum of Object Members</h4>
+         <pre>
+            function Check(obj1) {
+                let x=obj1.p1;
+                let y=obj1.p2;
+                let z=obj1.p3;
+                let sum=x+y+z;
+                return sum;
+               }
+               
+               
+         </pre>
+         <h4>Q8.Check whether the Objects are same or not.</h4>
+           <pre>
+            function check(obj1,a,b) {
+                if((obj1.name==a)&&(obj1.id==b))
+                {
+                  return true;
+                }
+                else{
+                  return false;
+                }
+            }
+            
+           </pre>
+</body>
+</html>
